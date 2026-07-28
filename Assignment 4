@@ -1,0 +1,54 @@
+class Bank Account:
+
+def__init_(self.balance):
+   self balance=balance
+
+def deposit(self,amount):
+   self.balance+=amount
+   print("Deposited:" ,amount)
+
+def Withdraw(self,amount):
+   if amount<=self.balance:
+    self.balance-=amount
+    print("Withdrawn:",amount)
+   else:
+    print("Insufficient balance")
+
+def display_balance(self)
+    print("Current Balance:", self.balance)
+
+
+#Object creation
+account=Bank Account(1000)
+
+#Deposit money
+account deposit(500)
+
+#Withdraw money
+account withdraw(300)
+
+#Display balance
+account display_balance()
+
+
+
+
+Output Example
+
+Deposited:500
+Withdraw:300
+Current Balance:1200
+
+
+
+
+
+
+
+
+
+
+
+
+
+

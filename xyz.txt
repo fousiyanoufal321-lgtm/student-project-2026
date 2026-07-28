@@ -1,0 +1,4 @@
+Whether you're new to programming or an experienced developer,
+ it's easy to learn and use Python.
+
+Start with our Beginner’s Guide

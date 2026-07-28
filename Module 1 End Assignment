@@ -1,0 +1,53 @@
+# Student Grade Management System
+#Assignment 1: Module End Assignment
+
+def calculate_average(marks):
+
+///////
+   Accepts a list of 5 numeric marks and returns the average.
+///////
+   return sum(marks)/len(marks)
+
+def get_grade(average):
+///////
+   Accepts the average mark and returns a grade based on criteria.
+///////
+
+   if average>=90:
+     return 'A'
+   elif average>=80:
+     return 'B'
+  elif average>=70:
+     return 'C'
+  elif average>=60:
+     return 'D'
+  else:
+     return 'F'
+
+def main():
+  marks=[]
+  print("Enter marks for 5 subjects(0-100):")
+
+
+#Validation logic for 5 sub
+  while len(marks)<5:
+    try:
+      entry=float(input(f"Enter mark for subject {len(marks)+1};"))
+          if 0 <=entry <=100:
+             marks.append(entry)
+          else:
+             print("Error:Mark must be between 0 and 100.")
+          except Value Error:
+             print("Error: Please enter a numeric value.")
+
+# Processing and Output
+avg=calculate_average(marks)
+grade=get_grade(avg)
+
+print("\n" + "_"*20)
+print(f"Average Marks:{avg:.if}")
+print(f"Grade:{grade}")
+print("-"*20)
+
+if_name_=="_main_":
+  main()

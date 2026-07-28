@@ -1,0 +1,25 @@
+def has _ unique _ chars(s):
+
+# ASCII characters count = 128
+
+for ch in s:
+
+   # Convert character to ASCII value
+
+   index=ord(ch)
+
+   #if already exists
+   if char_list[index]:
+   return False
+
+   # Mark character as seen
+   char_list[index] = True
+
+   return True
+
+#Test Cases
+print (has_unique_chars("python"))
+#True
+print(has_unique_chars("hello")) # False
+print(has_unique_chars("abcABC123")) # True
+print(has_unique_chars("apple")) # False
