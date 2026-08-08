@@ -27,3 +27,18 @@ A Python based Student Management System project to manage student details.
 ## How to Run
 1. Install Python
 2. Run the main Python file
+
+ ## Project Requirements
+
+- Python 3.x
+- SQLite Database
+- PyCharm or any Python IDE
+- Basic knowledge of Python  
+
+
+
+
+
+
+
+
