@@ -33,7 +33,54 @@ A Python based Student Management System project to manage student details.
 - Python 3.x
 - SQLite Database
 - PyCharm or any Python IDE
-- Basic knowledge of Python  
+- Basic knowledge of Python
+  
+## Database Schema
+### Students Table
+
+| Column | Data Type | Description |
+|---|---|---|
+| student_id | INTEGER | Primary Key, Auto Increment |
+| name | TEXT | Student name |
+| age | INTEGER | Student age |
+| department | TEXT | Student department |
+
+### Marks Table
+
+| Column | Data Type | Description |
+|---|---|---|
+| mark_id | INTEGER | Primary Key, Auto Increment |
+| student_id | INTEGER | Foreign Key referencing Students |
+| subject | TEXT | Subject name |
+| mark | INTEGER | Student mark |
+
+## Usage Guide
+
+1. Run the Python program.
+2. Select an option from the menu.
+3. Add student details.
+4. Add marks for students.
+5. View student details and marks.
+6. Select Exit to close the program.
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
